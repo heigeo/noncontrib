@@ -1,0 +1,44 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Non-Contributing Analysis</Name>
+  <AddInID>{a1cd724f-78ae-4fc2-9ab0-7f967e5ed152}</AddInID>
+  <Description>Non-Contributing Analysis Toolbar</Description>
+  <Version>1.9</Version>
+  <Image>Images\NonContribTool.png</Image>
+  <Author>Paul Hedlund</Author>
+  <Company>Houston Engineering Inc.</Company>
+  <Date>5/1/2019</Date>
+  <Targets>
+    <Target name="Desktop" version="10.6" />
+  </Targets>
+  <AddIn language="CLR" library="NonContribTool.dll" namespace="NonContribTool">
+    <ArcMap>
+      <Commands>
+        <Button id="Houston_Engineering_Inc_NonContribTool_Prefill" class="Prefill" message="Prefill Raster Process" caption="1. Depression Depth and Surface Area Filter" tip="Depression Depth and Surface Area Filter" category="Noncontrib" image="Images\Prefill.png" />
+        <Button id="Houston_Engineering_Inc_NonContribTool_ExpressCalc" class="ExpressCalc" message="Express Calc Raster Process" caption="2. Excess Runoff Calculation" tip="Excess Runoff Calculation" category="Noncontrib" onDemand="false" image="Images\ExpressCalc.png" />
+        <Button id="Houston_Engineering_Inc_NonContribTool_OneIter" class="OneIter" message="One Iteration Raster Process" caption="3. Iterative Runoff and Depression Volume Analysis" tip="Iterative Runoff and Depression Volume Analysis" category="Noncontrib" image="Images\OneIter.png" />
+        <Button id="Houston_Engineering_Inc_NonContribTool_NonContribAnalysis" class="NonContribAnalysis" message="Combined process that runs all three non-contributing steps." caption="Non-Contributing Analysis" tip="Non-Contributing Analysis" category="Noncontrib" image="Images\NonContribAnalysis.png" />
+        <Tool id="Houston_Engineering_Inc_NonContribTool_Burnlines" class="Burnlines" message="Burnline Populator" caption="Burnline Populator" tip="Coming Soon!" category="Nonconrib" image="Images\Burnlines.png" cursor="Images\Burnlines.cur" />
+        <Button id="Houston_Engineering_Inc_NonContribTool_clsDelineate" class="clsDelineate" message="Delineate Watersheds" caption="Delineate Watersheds" tip="Delineate Watersheds" category="Add-In Controls" image="Images\clsDelineate.png" />
+      </Commands>
+      <Menus>
+        <Menu id="Houston_Engineering_Inc_NonContribTool_Non-Contributing_Steps" caption="Non-Contributing Steps" isRootMenu="true">
+          <Items>
+            <Button refID="Houston_Engineering_Inc_NonContribTool_Prefill" />
+            <Button refID="Houston_Engineering_Inc_NonContribTool_ExpressCalc" />
+            <Button refID="Houston_Engineering_Inc_NonContribTool_OneIter" />
+          </Items>
+        </Menu>
+      </Menus>
+      <Toolbars>
+        <Toolbar id="noncontribtoolbar" caption="Non-Contributing Analysis" showInitially="true">
+          <Items>
+            <Menu refID="Houston_Engineering_Inc_NonContribTool_Non-Contributing_Steps" />
+            <Button refID="Houston_Engineering_Inc_NonContribTool_NonContribAnalysis" separator="true" />
+            <Tool refID="Houston_Engineering_Inc_NonContribTool_Burnlines" />
+          <Button refID="Houston_Engineering_Inc_NonContribTool_clsDelineate" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>

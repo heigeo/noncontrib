@@ -1,0 +1,16 @@
+C:\Development\NonContrib\NonContribTool\NonContribTool\bin\Debug\NonContrib.tbx
+C:\Development\NonContrib\NonContribTool\NonContribTool\bin\Debug\NonContribTool.dll
+C:\Development\NonContrib\NonContribTool\NonContribTool\bin\Debug\NonContribTool.pdb
+C:\Development\NonContrib\NonContribTool\NonContribTool\bin\Debug\NonContribTool.xml
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\UserControl1.baml
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\UserControl1.g.vb
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool_MarkupCompile.cache
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.g.resources
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.frmBurnlines.resources
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.frmTest.resources
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.Resources.resources
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.vbproj.GenerateResource.Cache
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.dll
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.xml
+C:\Development\NonContrib\NonContribTool\NonContribTool\obj\Debug\NonContribTool.pdb
+C:\Development\NonContrib\NonContribTool\NonContribTool\bin\Debug\NonContribTool.esriAddIn

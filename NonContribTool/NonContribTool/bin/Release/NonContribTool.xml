@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NonContribTool
+</name>
+</assembly>
+<members>
+<member name="T:NonContribTool.My.ThisAddIn">
+<summary>
+A class for looking up declarative information in the associated configuration xml file (.esriaddinx).
+</summary>
+</member>
+<member name="T:NonContribTool.My.ThisAddIn.IDs">
+<summary>
+A class for looking up Add-in id strings declared in the associated configuration xml file (.esriaddinx).
+</summary>
+</member>
+<member name="P:NonContribTool.My.ThisAddIn.IDs.Prefill">
+<summary>
+Returns 'Houston_Engineering_Inc_NonContribTool_Prefill', the id declared for Add-in Button class 'Prefill'
+</summary>
+</member>
+<member name="P:NonContribTool.My.ThisAddIn.IDs.ExpressCalc">
+<summary>
+Returns 'Houston_Engineering_Inc_NonContribTool_ExpressCalc', the id declared for Add-in Button class 'ExpressCalc'
+</summary>
+</member>
+<member name="P:NonContribTool.My.ThisAddIn.IDs.OneIter">
+<summary>
+Returns 'Houston_Engineering_Inc_NonContribTool_OneIter', the id declared for Add-in Button class 'OneIter'
+</summary>
+</member>
+<member name="P:NonContribTool.My.ThisAddIn.IDs.NonContribAnalysis">
+<summary>
+Returns 'Houston_Engineering_Inc_NonContribTool_NonContribAnalysis', the id declared for Add-in Button class 'NonContribAnalysis'
+</summary>
+</member>
+<member name="P:NonContribTool.My.ThisAddIn.IDs.Burnlines">
+<summary>
+Returns 'Houston_Engineering_Inc_NonContribTool_Burnlines', the id declared for Add-in Tool class 'Burnlines'
+</summary>
+</member>
+<member name="P:NonContribTool.My.ThisAddIn.IDs.clsDelineate">
+<summary>
+Returns 'Houston_Engineering_Inc_NonContribTool_clsDelineate', the id declared for Add-in Button class 'clsDelineate'
+</summary>
+</member>
+<member name="M:NonContribTool.My.Internal.AddInStartupObject.GetThis">
+ <summary>
+ Expose this instance of Add-in class externally
+ </summary>
+</member>
+<member name="T:NonContribTool.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:NonContribTool.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:NonContribTool.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:NonContribTool.UserControl1">
+<summary>
+UserControl1
+</summary>
+</member>
+<member name="M:NonContribTool.UserControl1.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>
